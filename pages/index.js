@@ -33,7 +33,7 @@ const Index = () => {
             <Col md="6" className="hero-welcome-wrapper">
               <div className="hero-welcome-text">
                 <h1>
-                  Welcome to the portfolio website of Filip Jerga.
+                  Welcome to the portfolio website of Manan Goel.
                   Get informed, collaborate and discover projects I was working on through the years!
                 </h1>
               </div>
