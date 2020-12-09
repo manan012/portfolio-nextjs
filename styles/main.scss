@@ -1,8 +1,13 @@
+
 // Components
 @import './components/header';
 
 // Pages
 @import './index';
+@import './portfolios';
+@import './portfolio-detail';
+@import './blogs';
+@import './about';
 
 html, body {
   height: 100%;
@@ -15,8 +20,17 @@ html, body {
 }
 
 .base-page {
-  padding-top: 150px;
-  color: white;
+  padding: 150px 0;
+  color: black;
+  background-color: #ecedee;
+  min-height: 100vh;
+
+  .page-header-title {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
 }
 
 .absolute {
@@ -28,4 +42,15 @@ html, body {
   color: white;
   font-weight: bold;
   letter-spacing: 2px;
+}
+
+.avatar-box {
+  img {
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
 }
